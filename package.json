@@ -5,7 +5,7 @@
   "repository": "https://github.com/ermelindopbernardo/AppGithub.git",
   "author": "Ermelindo Bernardo <bernardotooroffice@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
     "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
@@ -20,6 +20,8 @@
   "scripts": {
     "dev": "webpack-dev-server --mode=development ",
     "build": "webpack --mode=production"
-
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
-  }
+}
